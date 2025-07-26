@@ -10,10 +10,10 @@ public class decimalToBinary {
     int ans= 0;
 
     while (n>0) {
-      int unitDigit= n%2;
-      ans += unitDigit*pw;
-      pw*=10;
-      n/=2;
+      int unitDigit = n%2;
+      ans += unitDigit * pw;
+      pw *= 10;
+      n /= 2;
     }
     System.out.println("Binary Number is "+ ans);
     sc.close();
